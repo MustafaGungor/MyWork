@@ -1,5 +1,6 @@
 import collections.*;
 import files.*;
+import interfaces.exam1.Exam1;
 import maps.MyHashMap;
 import maps.MyLinkedHashMap;
 import maps.MyMapAndHashMap;
@@ -33,8 +34,15 @@ public class Main {
         //myBufferedReader.onRead("C:\\Users\\Diagram\\deneme.txt");
         //myBufferedReader.onReadTwo();
         /////////////////////////////////////////
-
-
+        //MyBufferedWriter myBufferedWriter = new MyBufferedWriter();
+        //try {
+        //    myBufferedWriter.onWrite("C:\\Users\\Diagram\\deneme.txt");
+        //} catch (Exception e) {
+        //    e.printStackTrace();
+        //}
+        ////////////////////////////////////////////
+        Exam1 exam1 = new Exam1();
+        exam1.onStart();
     }
 
 }
