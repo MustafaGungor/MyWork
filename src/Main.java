@@ -13,16 +13,28 @@ public class Main {
         //System.out.println("Hello World!");
         //1-) MyHashSet
         //MyMapAndHashMap myVector = new MyMapAndHashMap();
+        /////////////////////////////////////////
         //MyNewFileCreate myNewFileCreate = new MyNewFileCreate();
         //myNewFileCreate.onCreate("C:\\Users\\Diagram\\deneme.txt");
+        /////////////////////////////////////////
         //MyFileReader myFileReader = new MyFileReader();
         //myFileReader.onRead("C:\\Users\\Diagram\\deneme.txt");
+        /////////////////////////////////////////
         //MyFileWriter myFileWriter = new MyFileWriter();
         //myFileWriter.onWrite("C:\\Users\\Diagram\\deneme.txt");
+        /////////////////////////////////////////
         //MyFileInputStream myFileInputStream = new MyFileInputStream();
         //myFileInputStream.onRead("C:\\Users\\Diagram\\deneme.txt");
-        MyFileOutputStream myFileOutputStream = new MyFileOutputStream();
-        myFileOutputStream.onWrite("C:\\Users\\Diagram\\deneme.txt");
+        /////////////////////////////////////////
+        //MyFileOutputStream myFileOutputStream = new MyFileOutputStream();
+        //myFileOutputStream.onWrite("C:\\Users\\Diagram\\deneme.txt");
+        /////////////////////////////////////////
+        //MyBufferedReader myBufferedReader = new MyBufferedReader();
+        //myBufferedReader.onRead("C:\\Users\\Diagram\\deneme.txt");
+        //myBufferedReader.onReadTwo();
+        /////////////////////////////////////////
+
+
     }
 
 }
