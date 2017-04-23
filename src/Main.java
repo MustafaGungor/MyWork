@@ -1,3 +1,4 @@
+import abstracts.examAbstract1.ExamAbstract1;
 import collections.*;
 import files.*;
 import interfaces.exam1.Exam1;
@@ -41,8 +42,11 @@ public class Main {
         //    e.printStackTrace();
         //}
         ////////////////////////////////////////////
-        Exam1 exam1 = new Exam1();
-        exam1.onStart();
+        //Exam1 exam1 = new Exam1();
+        //exam1.onStart();
+        ////////////////////////////////////////////
+        ExamAbstract1 examAbstract1 = new ExamAbstract1();
+        examAbstract1.onStart();
     }
 
 }
