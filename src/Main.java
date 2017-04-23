@@ -1,8 +1,5 @@
 import collections.*;
-import files.MyFileInputStream;
-import files.MyFileReader;
-import files.MyFileWriter;
-import files.MyNewFileCreate;
+import files.*;
 import maps.MyHashMap;
 import maps.MyLinkedHashMap;
 import maps.MyMapAndHashMap;
@@ -22,8 +19,10 @@ public class Main {
         //myFileReader.onRead("C:\\Users\\Diagram\\deneme.txt");
         //MyFileWriter myFileWriter = new MyFileWriter();
         //myFileWriter.onWrite("C:\\Users\\Diagram\\deneme.txt");
-        MyFileInputStream myFileInputStream = new MyFileInputStream();
-        myFileInputStream.onRead("C:\\Users\\Diagram\\deneme.txt");
+        //MyFileInputStream myFileInputStream = new MyFileInputStream();
+        //myFileInputStream.onRead("C:\\Users\\Diagram\\deneme.txt");
+        MyFileOutputStream myFileOutputStream = new MyFileOutputStream();
+        myFileOutputStream.onWrite("C:\\Users\\Diagram\\deneme.txt");
     }
 
 }
